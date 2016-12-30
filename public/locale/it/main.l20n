@@ -33,26 +33,26 @@
 <buttonLinkTooltip title:"Condividi">
 <buttonContribTooltip title:"Aggiungi dati mancanti">
 <buttonTempLayerTooltip title:"Aggiungere un livello temporaneo">
-<buttonEditSettingTooltip title:"{{ settings }}">
-<buttonEditLayerTooltip title:"{{ layers }}">
-<buttonEditLocaleTooltip title:"{{ translations }}">
-<buttonEditPresetTooltip title:"{{ presets }}">
-<buttonEditTagTooltip title:"{{ tags }}">
+<buttonEditSettingTooltip title:"{{ impostazioni }}">
+<buttonEditLayerTooltip title:"{{ livello }}">
+<buttonEditLocaleTooltip title:"{{ traduzioni }}">
+<buttonEditPresetTooltip title:"{{ preimpostazioni }}">
+<buttonEditTagTooltip title:"{{ tag }}">
 <buttonHelpTooltip title:"Aiuto">
 
 
 
 
-<overPassCacheArchives "OverPass cache archives"> /* FIXME */
-<overPassCacheArchives_explanation "The following POI are in your OverPass layers cache but have been removed from OSM."> /* FIXME */
-<overPassCacheArchives_emptyStateTextArchived "No archived POI"> /* FIXME */
-<overPassCacheArchives_emptyStateTextWaiting "No POI waiting"> /* FIXME */
-<seeArchives "See the archived POI"> /* FIXME */
+<overPassCacheArchives "archivi cache di OverPass">
+<overPassCacheArchives_explanation "I seuguenti POI sono nei livelli della cache del tuo OverPass ma sono stati rimossi da OSM."> 
+<overPassCacheArchives_emptyStateTextArchived "Nessun POI archiviato"> 
+<overPassCacheArchives_emptyStateTextWaiting "Nessun POI in atteesa"> 
+<seeArchives "Vedi i POI archiviati"> 
 <layers "Livelli">
 <layer "Livello">
-<translations "Translations"> /* FIXME */
+<translations "Traduzioni"> 
 <presets "Tipo di Nodi">
-<presetCategories "Nodes types categories"> /* FIXME */
+<presetCategories "tipi di categorie dei Nodi"> 
 <tags "Tags">
 <goBackToHome "Ritorno alla home">
 <about "Info {{ mapcontrib }}">
@@ -64,8 +64,8 @@
 <logout "Log out">
 <close "Chiudi">
 <save "Salva">
-<delete "Delete"> /* FIXME */
-<archive "Archive"> /* FIXME */
+<delete "Elimina"> 
+<archive "Archivia"> 
 <validate "Valida">
 <cancel "Elimina">
 <next "Prossimo">
@@ -80,42 +80,42 @@
 <searchATheme "Cerca un tema (min. 3 caratteri)">
 <aboutMapContrib "Informazioni su MapContrib">
 <invalidFile "File non valido">
-<currentFile "FIle attuale: <a>{{ $file }}</a>">
+<currentFile "File attuale: <a>{{ $file }}</a>">
 <file "File">
-<fileNotFound "File not found"> /* FIXME */
+<fileNotFound "File non trovati"> 
 <noResult "Nessun risultato">
 <name "Nome">
 <description "Descrizione">
 <type "Tipo">
-<locales "Translations"> /* FIXME */
+<locales "Traduzioni"> 
 <key "Chiave">
-<textFields label:"Text"> /* FIXME */
-<checkboxFields label:"Checkboxes"> /* FIXME */
-<nonTextFields label:"Non text"> /* FIXME */
-<comboFields label:"Dropdown"> /* FIXME */
-<text "Text"> /* FIXME */
-<number "Number"> /* FIXME */
-<email "Email"> /* FIXME */
-<tel "Phone number"> /* FIXME */
-<url "Web address"> /* FIXME */
-<textarea "Big text"> /* FIXME */
-<checkbox "Checkbox"> /* FIXME */
-<checkField "Yes or no"> /* FIXME */
-<defaultCheckField "Yes or empty"> /* FIXME */
-<comboField "Only choice"> /* FIXME */
-<typeComboField "Yes or only choice"> /* FIXME */
-<multiComboField "Multi-choice"> /* FIXME */
+<textFields label:"Testo">
+<checkboxFields label:"Caselle di controllo"> 
+<nonTextFields label:"Non testuale">
+<comboFields label:"A cascata">
+<text "Testo"> 
+<number "Numero">
+<email "Email"> 
+<tel "Telefono"> 
+<url "Indirizzo web">
+<textarea "Testo grande"> 
+<checkbox "Casella di controllo"> 
+<checkField "Sì o no"> 
+<defaultCheckField "Sì o vuoto"> 
+<comboField "Solo scelta"> 
+<typeComboField "Si o solo scelta"> 
+<multiComboField "Scelta-multipla"> 
 <value "Valore">
-<defaultValue "Default value"> /* FIXME */
+<defaultValue "Valore predefinito"> 
 <yes "Si">
 <no "No">
 <settings "Impostazioni">
 <mainSettings "Impostazioni generali">
 <tiles "Sfondi">
-<options "Options"> /* FIXME */
-<addAnOption "Add an option"> /* FIXME */
-<multiComboInfo1 "Complete the <em>{{ $prefix }}</em> prefix"> /* FIXME */
-<multiComboInfo2 "Eg: recycling:glass"> /* FIXME */
+<options "Opzioni"> 
+<addAnOption "Aggiungi una opzione"> 
+<multiComboInfo1 "Completa il <em>{{ $prefix }}</em> prefisso"> /* FIXME */
+<multiComboInfo2 "Es: recycling:glass"> /* FIXME */
 
 
 /* Home */
@@ -167,7 +167,7 @@
 /* Contribution column */
 <contribColumn_title "Aggiungi un nodo">
 <contribColumn_description "Scegli il tipo di nodo">
-<contribColumn_searchAPreset "Search a type of node"> /* FIXME */
+<contribColumn_searchAPreset "Cerca un tipo di nodo"> 
 <contribColumn_freeAddition "Aggiunta libera di tag">
 <contribColumn_addTag "Aggiungi un tag">
 
@@ -218,25 +218,25 @@ Inseriscilo proprio qui!"> /
 <editLayerFormColumn_title "Modifica livello">
 <editLayerFormColumn_layerName "{{ name }}">
 <editLayerFormColumn_layerDescription "{{ description }}">
-<editLayerFormColumn_representationType "Representation"> /* FIXME */
-<editLayerFormColumn_clusterRepresentation "Groupable points"> /* FIXME */
-<editLayerFormColumn_heatRepresentation "Heat map"> /* FIXME */
+<editLayerFormColumn_representationType "Rappresentazione"> 
+<editLayerFormColumn_clusterRepresentation "Punti raggruppabili"> 
+<editLayerFormColumn_heatRepresentation "Mappa di densità"> 
 <editLayerFormColumn_visibility "Visibilità">
 <editLayerFormColumn_visible "Visibile agli utenti">
-<editLayerFormColumn_heatOptions "Heat map"> /* FIXME */
-<editLayerFormColumn_heatMapPopoverTitle "Informations"> /* FIXME */
-<editLayerFormColumn_heatMapPopoverContent "#### Maximum zoom
+<editLayerFormColumn_heatOptions "Mappa di densità"> /* FIXME */
+<editLayerFormColumn_heatMapPopoverTitle "Informazioni"> /* FIXME */
+<editLayerFormColumn_heatMapPopoverContent "#### Zoom massimo
 
-Zoom level where the points reach maximum intensity.
+Livello di zoom dove i punti raggiungono l'intensità massima.
 
 #### Radius
 
-Radius of each point of the layer."> /* FIXME */
-<editLayerFormColumn_heatMinOpacity "Minimum opacity"> /* FIXME */
-<editLayerFormColumn_heatMaxZoom "Maximum zoom"> /* FIXME */
-<editLayerFormColumn_heatMax "Maximum intensity"> /* FIXME */
-<editLayerFormColumn_heatBlur "Amount of blur"> /* FIXME */
-<editLayerFormColumn_heatRadius "Radius"> /* FIXME */
+Raggio di ciascun punto del layer."> 
+<editLayerFormColumn_heatMinOpacity "Opacità minima"> 
+<editLayerFormColumn_heatMaxZoom "Zoom massimo"> 
+<editLayerFormColumn_heatMax "Intesità massima"> 
+<editLayerFormColumn_heatBlur "Quantità di sfocatura"> 
+<editLayerFormColumn_heatRadius "Ra"ggio> 
 <editLayerFormColumn_layerZoomLevel "Zoom minimo">
 <editLayerFormColumn_currentMapZoom "La mappa fa attualmente uso del livello di zoom {{ $currentMapZoom }}">
 <editLayerFormColumn_overPassPopoverTitle "Area di selezione">
@@ -246,7 +246,7 @@ Radius of each point of the layer."> /* FIXME */
 <editLayerFormColumn_infoDisplayPopoverTitle "Valore dei tag"> /
 <editLayerFormColumn_infoDisplayPopoverContent "Per visualizzare il valore di ogni elemento dei tag, inserire il nome fra parentesi graffe.
 
-Esempio : `\{pippo\}` sarà sostituito dal valore del tag dell'elemento *pippo*."> /
+Esempio : `\{valoretag\}` sarà sostituito dal valore del tag dell'elemento *valoretag*."> /
 <editLayerFormColumn_layerPopupContent "Contenuto popup">
 <editLayerFormColumn_gpxFile "file GPX">
 <editLayerFormColumn_csvFile "file CSV">
@@ -256,11 +256,11 @@ Esempio : `\{pippo\}` sarà sostituito dal valore del tag dell'elemento *pippo*.
 <editLayerFormColumn_cache "Cache">
 <editLayerFormColumn_cacheDescription "Questo sostituisce la richiesta live a OverPass.">
 <editLayerFormColumn_enableCache "Abilita la cache">
-<editLayerFormColumn_enableCacheArchive "Enable the cache archiving"> /* FIXME */
+<editLayerFormColumn_enableCacheArchive "Abilita la cache di archiviazione">
 <editLayerFormColumn_cachePopoverTitle "Limiti">
 <editLayerFormColumn_cachePopoverContent "I dati sono aggiornati quotidianamente dalla richiesta che richiede meno di 3 minuti e produce un file finale di dimensioni minori ad 1MB.">
-<editLayerFormColumn_cacheArchivePopoverTitle "Cache archiving"> /* FIXME */
-<editLayerFormColumn_cacheArchivePopoverContent "It lets theme administrators to decide to keep or definitly remove the OSM removed POIs."> /* FIXME */
+<editLayerFormColumn_cacheArchivePopoverTitle "Cache di archiviazione">
+<editLayerFormColumn_cacheArchivePopoverContent "Permette agli amministratori del tema di decidere se mantenere o rimuovere definitivamente i POI di OSM"> /* FIXME */
 <editLayerFormColumn_cacheDate "Ultimo aggiornamento: {{ $date }}.">
 <editLayerFormColumn_cacheErrorTimeout "<i></i> L´ultima cache di aggiornamento non è andata a buon fine a causa di tempo di esecuzione troppo lungo.">
 <editLayerFormColumn_cacheErrorMemory "<i></i> L´ultima cache di aggiornamento non è andata a buon fine a causa della generazione di un file troppo grande.">
@@ -341,15 +341,15 @@ Esempio : `\{pippo\}` sarà sostituito dal valore del tag dell'elemento *pippo*.
 <uiFormNodeTags_nonOsmContributionWarning "Tag non inviato a OpenStreetMap">
 <uiFormNodeTags_textInput "Testo di input">
 <uiFormNodeTags_fileInput "File di input">
-<uiFormNodeTags_displayRawTag "Display the raw OSM tag"> /* FIXME */
+<uiFormNodeTags_displayRawTag "Visualizza i tag OSM grezzi"> 
 
 /* Color selector UI */
 <uiColorSelector_label "Colore">
 
 
 /* List group UI */
-<uiListGroup_placeholder "Click below"> /* FIXME */
-<uiListGroup_placeholderNothingToTranslate "Nothing to translate"> /* FIXME */
+<uiListGroup_placeholder "Clic sotto"> 
+<uiListGroup_placeholderNothingToTranslate "Nulla ad tradurre"> 
 
 
 /* Contribution form column */
@@ -415,7 +415,7 @@ Esempio : `\{pippo\}` sarà sostituito dal valore del tag dell'elemento *pippo*.
 /* Admin presets column */
 <adminPresetColumn_title "Tipo di nodi">
 <adminPresetColumn_addPreset "Aggiungere un tipo di nodo">
-<adminPresetColumn_addPresetCategory "Add a category"> /* FIXME */
+<adminPresetColumn_addPresetCategory "Aggiungi una categoria"> 
 
 
 /* Admin edit presets column */
@@ -424,4 +424,4 @@ Esempio : `\{pippo\}` sarà sostituito dal valore del tag dell'elemento *pippo*.
 
 
 /* Admin edit preset categories column */
-<adminPresetCategoryColumn_title "Category"> /* FIXME */
+<adminPresetCategoryColumn_title "Categoria">
